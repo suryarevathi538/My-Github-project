@@ -1,5 +1,5 @@
 apiversion:v1
-kind:Service
+kind:pod
 metadata: 
   Name:webapp-service
   
