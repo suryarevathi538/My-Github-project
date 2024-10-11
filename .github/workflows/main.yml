@@ -1,5 +1,5 @@
 apiversion:v1
-kind:deployments
+kind:replicasets
 metadata: 
   Name:webapp-service
   
