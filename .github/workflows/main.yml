@@ -1,2 +1,16 @@
-Pipeline of jenkins
+apiversion:v1
+kind:deployments
+metadata: 
+  Name:webapp-service
+  
+spec:
+  Type:Nodeport
+  ports  :
+   - port : 8080
+     targetport:8080
+     nodeport:30080
+  selector:
+     name:simple-webapp
+  
+
   
